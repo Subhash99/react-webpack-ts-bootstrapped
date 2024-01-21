@@ -1,8 +1,13 @@
+import styles from "./app.scss";
+import TestBBC from "./components/test";
+import styles2 from "./styles.scss";
+
 const App = () => {
   return (
-    <div className="app">
-      <div>
-        <b>Getting Started</b>
+    <div>
+      <div className={styles.content}>
+        <b className={styles2.body}>Getting Started</b>
+        <TestBBC />
       </div>
     </div>
   );
