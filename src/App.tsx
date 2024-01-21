@@ -8,7 +8,6 @@ const App = () => {
     <div>
       <div className={styles.content}>
         <b className={styles2.body}>Getting Started</b>
-        <TestBBC />
       </div>
     </div>
   );
