@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./app.scss";
 import TestBBC from "./components/test";
 import styles2 from "./styles.scss";
